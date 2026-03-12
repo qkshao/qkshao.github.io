@@ -27,17 +27,6 @@ gem "github-pages", group: :jekyll_plugins
 gem 'webrick'
 
 gem "nokogiri", ">= 1.14.3"
+gem "faraday-retry"
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-# updates 2024
-
-gem "rexml", ">= 3.3.2"
-
-# updates 2025 -- newer jekyll versions
-gem "csv"
-gem "base64"
-# updates sp2026
-gem 'bigdecimal'
 
